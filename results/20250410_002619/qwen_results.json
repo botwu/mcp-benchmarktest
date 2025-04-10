@@ -1,0 +1,54 @@
+[
+  {
+    "case_id": "web_search_1",
+    "query": "查找关于量子计算最新进展的信息",
+    "difficulty": "easy",
+    "response": {
+      "text": "这是Qwen模型(qwen-max)对'查找关于量子计算最新进展的信息'的回复",
+      "tool_calls": [
+        {
+          "name": "search_web",
+          "arguments": {}
+        }
+      ]
+    },
+    "expected_tools": [
+      "search_web"
+    ]
+  },
+  {
+    "case_id": "code_execution_1",
+    "query": "编写并运行一个计算斐波那契数列的Python函数",
+    "difficulty": "medium",
+    "response": {
+      "text": "这是Qwen模型(qwen-max)对'编写并运行一个计算斐波那契数列的Python函数'的回复",
+      "tool_calls": [
+        {
+          "name": "search_web",
+          "arguments": {}
+        }
+      ]
+    },
+    "expected_tools": [
+      "run_code"
+    ]
+  },
+  {
+    "case_id": "multi_tool_1",
+    "query": "查找最新的Python库用于数据分析，并展示一个简单的使用示例",
+    "difficulty": "hard",
+    "response": {
+      "text": "这是Qwen模型(qwen-max)对'查找最新的Python库用于数据分析，并展示一个简单的使用示例'的回复",
+      "tool_calls": [
+        {
+          "name": "search_web",
+          "arguments": {}
+        }
+      ]
+    },
+    "expected_tools": [
+      "search_web",
+      "run_code"
+    ]
+  }
+]

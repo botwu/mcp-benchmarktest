@@ -1,0 +1,14 @@
+{
+  "qwen": {
+    "tool_accuracy": 0.3333333333333333,
+    "relevance": 0.85,
+    "correctness": 0.78,
+    "overall": 0.6223333333333333
+  },
+  "deepseek": {
+    "tool_accuracy": 0.3333333333333333,
+    "relevance": 0.85,
+    "correctness": 0.78,
+    "overall": 0.6223333333333333
+  }
+}

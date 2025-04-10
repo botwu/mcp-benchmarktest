@@ -1,0 +1,4 @@
+2025-04-10 00:25:52,723 - evaluation - INFO - 开始评估模型: qwen
+2025-04-10 00:25:52,723 - evaluation - INFO - 评估测试用例: web_search_1
+2025-04-10 00:25:52,723 - evaluation - INFO - 评估测试用例: code_execution_1
+2025-04-10 00:25:52,723 - evaluation - INFO - 评估测试用例: multi_tool_1
