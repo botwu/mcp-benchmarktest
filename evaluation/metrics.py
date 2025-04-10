@@ -487,7 +487,7 @@ def calculate_overall_score(metrics):
     for metric, weight in weights.items():
         if metric in metrics:
             score += metrics[metric] * weight
-    
+            
     return score
 
 def calculate_response_correctness(responses, test_cases):
